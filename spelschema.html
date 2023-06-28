@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content=""with=device-width, initial-scale="1.0">
+    <title>Skapa en fotbollscup</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="img/FotbollIkon.png"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">START</a></li>
+            <li><a href="spelschema.html">SPELSCHEMA</a></li>
+            <li><a href="">TABELL</a></li>
+            <li><a href="">SÖK EFTER LAG</a></li>
+            <li><a href="">KONTAKT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="choose-day" id="choose-day">
+        <ul>
+          <li><a href="">LÖRDAG</a></li>
+          <li><a href="">SÖNDAG</a></li>
+        </ul>
+      </div>
+      <h3>Spelschema</h3>
+    </section>
+    <div class="table-container">
+      <div>
+        <h4>Plan 1 gruppspel</h4>
+        <table>
+            <style>
+                h4{
+                    margin-bottom: -20px;
+                }
+
+                table {
+                  width: 40%;
+                  height: 0px;
+                  border-collapse: collapse;
+                }
+              
+                th,
+                td {
+                  padding: 0px;
+                  text-align: center;
+                  border: 1px solid #ccc;
+                }
+              
+                th {
+                  background-color: #f2f2f2;
+                  font-weight: bold;
+                }
+              
+                tr:nth-child(even) {
+                  background-color: #f9f9f9;
+                }
+              
+                tr:hover {
+                  background-color: #e6f7ff;
+                }
+              
+                td.team-boo {
+                  background-color: #3b5998;
+                  color: #fff;
+                }
+              
+                td.team-hif {
+                  background-color: #008000;
+                  color: #fff;
+                }
+              
+                td.team-rsf {
+                  background-color: #808080;
+                  color: #fff;
+                }
+              
+                td.team-bk {
+                  background-color: #ffff99;
+                }
+              
+                td.team-aspudden {
+                  background-color: #87cefa;
+                }
+              
+                td.team-real {
+                  background-color: #ffffff;
+                }
+              
+                td.team-varmdo {
+                  background-color: #1240e3;
+                  color: #fff;
+                }
+              
+                td.team-orebro {
+                  background-color: #ff0000;
+                  color: #fff;
+                }
+              </style>
+              <div class="table-content">
+                <table>
+                    <tr>
+                    <th>Starttid</th>
+                    <th>Sluttid</th>
+                    <th>Hemmalag</th>
+                    <th>Bortalag</th>
+                    <th>Resultat</th>
+                    </tr>
+                    <tr>
+                    <td>10:00</td>
+                    <td>10:45</td>
+                    <td class="team-boo">Boo SK</td>
+                    <td class="team-hif">HIF 11</td>
+                    <td>-</td>
+                    </tr>
+                    <tr>
+                    <td>10:50</td>
+                    <td>11:35</td>
+                    <td class="team-rsf">RSF</td>
+                    <td class="team-varmdo">Värmdö</td>
+                    <td>-</td>
+                    </tr>
+                    <tr>
+                    <td>11:40</td>
+                    <td>12:25</td>
+                    <td class="team-boo">Boo SK</td>
+                    <td class="team-bk">BK Sport</td>
+                    <td>-</td>
+                    </tr>
+                    <tr>
+                    <td>12:30</td>
+                    <td>13:15</td>
+                    <td class="team-real">FC Real</td>
+                    <td class="team-rsf">RSF</td>
+                    <td>-</td>
+                    </tr>
+                    <tr>
+                    <td>13:20</td>
+                    <td>14:05</td>
+                    <td class="team-boo">Boo SK</td>
+                    <td class="team-aspudden">Aspudden</td>
+                    <td>-</td>
+                    </tr>
+                    <tr>
+                    <td>14:10</td>
+                    <td>14:45</td>
+                    <td class="team-orebro">Örebro Karlslund</td>
+                    <td class="team-rsf">RSF</td>
+                    <td>-</td>
+                    </tr>
+        </table>
+      </div>
+      <div>
+        <h5>Plan 2 gruppspel</h5>
+        <table>
+            <style>
+                table {
+                  width: 90%;
+                  height: 30px;
+                  border-collapse: collapse;
+                }
+              
+                th,
+                td {
+                  padding: 0px;
+                  text-align: center;
+                  border: 1px solid #ccc;
+                }
+              
+                th {
+                  background-color: #f2f2f2;
+                  font-weight: bold;
+                }
+              
+                tr:nth-child(even) {
+                  background-color: #f9f9f9;
+                }
+              
+                tr:hover {
+                  background-color: #e6f7ff;
+                }
+              
+                td.team-boo {
+                  background-color: #3b5998;
+                  color: #fff;
+                }
+              
+                td.team-hif {
+                  background-color: #008000;
+                  color: #fff;
+                }
+              
+                td.team-rsf {
+                  background-color: #808080;
+                  color: #fff;
+                }
+              
+                td.team-bk {
+                  background-color: #ffff99;
+                }
+              
+                td.team-aspudden {
+                  background-color: #87cefa;
+                }
+              
+                td.team-real {
+                  background-color: #ffffff;
+                }
+              
+                td.team-varmdo {
+                  background-color: #1240e3;
+                  color: #fff;
+                }
+              
+                td.team-orebro {
+                  background-color: #ff0000;
+                  color: #fff;
+                }
+              </style>
+              <div class="table-container">
+                <table>
+                  <tr>
+                    <th>Starttid</th>
+                    <th>Sluttid</th>
+                    <th>Hemmalag</th>
+                    <th>Bortalag</th>
+                    <th>Resultat</th>
+                  </tr>
+                  <tr>
+                    <td>10:00</td>
+                    <td>10:45</td>
+                    <td class="team-bk">BK Sport</td>
+                    <td class="team-aspudden">Aspudden</td>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                    <td>10:50</td>
+                    <td>11:35</td>
+                    <td class="team-orebro">Örebro Karlslund</td>
+                    <td class="team-real">FC Real</td>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                    <td>11:40</td>
+                    <td>12:25</td>
+                    <td class="team-hif">HIF 11</td>
+                    <td class="team-aspudden">Aspudden</td>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                    <td>12:30</td>
+                    <td>13:15</td>
+                    <td class="team-orebro">Örebro Karlslund</td>
+                    <td class="team-varmdo">Värmdö</td>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                    <td>13:20</td>
+                    <td>14:05</td>
+                    <td class="team-bk">BK Sport</td>
+                    <td class="team-hif">HIF 11</td>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                    <td>14:10</td>
+                    <td>14:55</td>
+                    <td class="team-real">FC Real</td>
+                    <td class="team-varmdo">Värmdö</td>
+                    <td>-</td>
+                  </tr>
+        </table>
+      </div>
+    </div>
+    <!------JavaScript for toggle menu------>
+    <script>
+      var navLinks=document.getElementById("navLinks");
+      function showMenu(){
+        navLinks.style.display="block";
+      }
+      function hideMenu(){
+        navLinks.style.display="none";
+      }
+    </script>
+  </body>
+</html>
