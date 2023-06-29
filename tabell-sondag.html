@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skapa en fotbollscup</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="img/FotbollIkon.png"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">START</a></li>
+            <li><a href="spelschema-lordag.html">SPELSCHEMA</a></li>
+            <li><a href="tabell-lordag.html">TABELL</a></li>
+            <li><a href="kontakt.html">KONTAKT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="choose-day2" id="choose-day2">
+        <ul>
+          <li><a href="tabell-lordag.html">LÖRDAG</a></li>
+          <li><a href="tabell-sondag.html">SÖNDAG</a></li>
+        </ul>
+      </div>
+      <h3>Tabell</h3>
+    </section>
+    <div class="table-container">
+      <div>
+        <h4>Grupp 1</h4>
+        <table>
+            <style>
+                h4{
+                    margin-bottom: -20px;
+                }
+
+                table {
+                  width: 40%;
+                  height: 0px;
+                  border-collapse: collapse;
+                }
+              
+                th,
+                td {
+                  padding: 0px;
+                  text-align: center;
+                  border: 1px solid #ccc;
+                }
+              
+                th {
+                  background-color: #f2f2f2;
+                  font-weight: bold;
+                }
+              
+                tr:nth-child(even) {
+                  background-color: #f9f9f9;
+                }
+              
+                tr:hover {
+                  background-color: #e6f7ff;
+                }
+              
+                td.team-boo {
+                  background-color: #3b5998;
+                  color: #fff;
+                }
+              
+                td.team-orebroEker {
+                  background-color: #5d6169;
+                  color: #fff;
+                }
+              
+                td.team-hammaro {
+                  background-color: #ff0000;
+                  color: #fff;
+                }
+              </style>
+              <div class="table-content">
+                <table>
+                    <tr>
+                    <th>Placering</th>
+                    <th>Lag</th>
+                    <th>M</th>
+                    <th>V</th>
+                    <th>O</th>
+                    <th>F</th>
+                    <th>+/-</th>
+                    <th>P</th>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                    <td class="team-boo">Boo SK</td>
+                    <td class="">0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td class="team-hammaro">Hammarö</td>
+                      <td class="">0</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td class="team-orebroEker">Örebro Eker</td>
+                      <td class="">0</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                    </tr>
+        </table>
+      </div>
+      <div>
+        <h5>Grupp 2</h5>
+        <table>
+            <style>
+                table {
+                  width: 90%;
+                  height: 30px;
+                  border-collapse: collapse;
+                }
+              
+                th,
+                td {
+                  padding: 0px;
+                  text-align: center;
+                  border: 1px solid #ccc;
+                }
+              
+                th {
+                  background-color: #f2f2f2;
+                  font-weight: bold;
+                }
+              
+                tr:nth-child(even) {
+                  background-color: #f9f9f9;
+                }
+              
+                tr:hover {
+                  background-color: #e6f7ff;
+                }
+              
+                td.team-boo {
+                  background-color: #3b5998;
+                  color: #fff;
+                }
+              
+                td.team-ska {
+                  background-color: #008000;
+                  color: #fff;
+                }
+              
+                td.team-bk {
+                  background-color: #ffff99;
+                }
+              </style>
+              <div class="table-container">
+                <table>
+                  <tr>
+                    <th>Placering</th>
+                    <th>Lag</th>
+                    <th>M</th>
+                    <th>V</th>
+                    <th>O</th>
+                    <th>F</th>
+                    <th>+/-</th>
+                    <th>P</th>
+                    </tr>
+                    <tr>
+                      <td>1</td>
+                    <td class="team-bk">BK Sport</td>
+                    <td class="">0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                    </tr>
+                    <tr>
+                      <td>2</td>
+                      <td class="team-enskede">Enskede</td>
+                      <td class="">0</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                    </tr>
+                    <tr>
+                      <td>3</td>
+                      <td class="team-ska">Skå</td>
+                      <td class="">0</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                      <td>0</td>
+                    </tr>
+        </table>
+      </div>
+    </div>
+
+    <!------JavaScript for toggle menu------>
+    <script>
+      var navLinks=document.getElementById("navLinks");
+      function showMenu(){
+        navLinks.style.display="block";
+      }
+      function hideMenu(){
+        navLinks.style.display="none";
+      }
+    </script>
+  </body>
+</html>
