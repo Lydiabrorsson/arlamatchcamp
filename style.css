@@ -211,7 +211,7 @@ h3{
     .choose-day{
         flex: 1;
         text-align: left;
-        margin-top: 50px;
+        margin-top: 70px;
     }
     .choose-day ul li{
         list-style: none;
@@ -242,7 +242,7 @@ h3{
     .choose-day2{
         flex: 1;
         text-align: left;
-        margin-top: 50px;
+        margin-top: 70px;
     }
     .choose-day2 ul li{
         list-style: none;
